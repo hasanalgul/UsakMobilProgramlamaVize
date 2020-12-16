@@ -16,6 +16,12 @@ class UyeOl extends StatelessWidget {
                   labelText: 'E-mail',
                 ),
               ),
+              TextFormField(
+                decoration: InputDecoration(
+                  border: OutlineInputBorder(),
+                  labelText: 'Kullanıcı Adı',
+                ),
+              ),
               SizedBox(height: 20.0),
               TextFormField(
                 decoration: InputDecoration(
